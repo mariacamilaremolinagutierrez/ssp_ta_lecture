@@ -2,7 +2,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-from pykep import epoch, epoch_from_string, planet, AU, MU_SUN, DEG2RAD#, DAY2SEC
+from pykep import epoch, epoch_from_string, planet, AU, MU_SUN, DEG2RAD
 from pykep.planet import jpl_lp, keplerian
 from pykep.orbit_plots import plot_planet
 
